@@ -1,0 +1,28 @@
+*   {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: black;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-1    {
+    background-color: #1f2937;
+}
+
+.block-2    {
+    background-color: whitesmoke;
+}
+
+.block-3    {
+    background-color: #e5e7eb;
+}
+
+.block-4    {
+    background-color: whitesmoke;
+}
