@@ -38,8 +38,17 @@ body    {
     background-color: #1F2937;
     padding: 8px 100px;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.header-elements    {
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
+    max-width: 670px;
+    min-width: 400px;
+    flex: 1 1 0;
 }
 
 .logo   {
@@ -164,6 +173,7 @@ body    {
 .blue-box   {
     background: #3882f6;
     max-width: 670px;
+    min-width: 400px;
     padding: 20px;
     display: flex;
     flex: 1 0 0;
