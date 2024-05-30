@@ -131,3 +131,11 @@ body    {
     display: flex;
     flex: 1 0 0;
 }
+
+/*footer*/
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
