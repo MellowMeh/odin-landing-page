@@ -83,6 +83,7 @@ body    {
 .main-title {
     font-size: 25px;
     font-weight: 700;
+    min-width: 150px;
     color: #f9faf8;
 }
 
@@ -90,6 +91,7 @@ body    {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
     font-weight: 100;
+    max-width: 270px;
     color: #E5E7EB;
 }
 
