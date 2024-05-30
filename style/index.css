@@ -59,12 +59,40 @@ body    {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
 .top-left   {
     padding: 50px 0px 50px 100px;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.main-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.title-subtext  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.top-button {
+    background-color: #3882f6;
+    font-size: 8px;
+    font-weight: 900;
+    color: #E5E7EB;
+    border-radius: 5px;
+    max-width: 65px;
+    padding: 4px;
+    border: none;
 }
 
 .top-right  {
