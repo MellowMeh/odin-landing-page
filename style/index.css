@@ -128,6 +128,8 @@ body    {
 
 .mid-title  {
     padding: 20px;
+    font-weight: 700;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +137,7 @@ body    {
 
 .mid-images {
     max-width: 800px;
-    padding: 0px 100px;
+    padding: 0px 100px 20px 100px;
     display: flex;
     gap: 10px;
 }
@@ -151,6 +153,15 @@ body    {
 
 .mid-subtext    {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 100;
+    max-width: 100px;
+    color: lightgray;
+}
+
+img {
+    border-radius: 5px;
 }
 
 /*Quote box*/
