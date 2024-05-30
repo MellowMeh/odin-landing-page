@@ -173,12 +173,18 @@ img {
 }
 
 .quote-text {
-    max-width: 800px;
+    font-size: 16px;
+    color: #1F2937;
+    font-style: italic;
+    width: 630px;
     padding: 50px 100px 0px 100px;
 }
 
 .attribution    {
-    padding: 5px 100px 50px 450px;
+    font-size: 16px;
+    color: #1F2937;
+    width: 630px;
+    padding: 5px 100px 50px 350px;
 }
 
 /*Call to action box*/
