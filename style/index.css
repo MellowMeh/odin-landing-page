@@ -1,8 +1,21 @@
+/*This section holds defaults applied to all CSS documents I work on*/
+
 *   {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
+a   {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul  {
+    list-style: none;
+}
+
+/*This section holds the declarations needed to fill the whole browser vertically */
 
 body    {
     height: 100vh;
@@ -10,13 +23,26 @@ body    {
     flex-direction: column;
 }
 
-.header {
-    background-color: black;
-    height: 100px;
-    color: white;
-}
-
 .main   {
     background-color: gray;
     flex: 1;
+}
+
+/*This section holds also info for top blue box*/
+
+.header {
+    background-color: #1F2937;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo   {
+    color: #f9faf8;
+}
+
+.links  {
+    color:#E5E7EB;
+    display: flex;
+    gap: 15px;
 }
