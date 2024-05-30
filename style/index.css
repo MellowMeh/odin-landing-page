@@ -51,10 +51,13 @@ body    {
     background-color: #1F2937;
     flex: 1;
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .top-left   {
     padding: 50px 0px 50px 100px;
+    max-width: 500px;
 }
 
 .top-right  {
