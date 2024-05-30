@@ -67,6 +67,9 @@ body    {
 /*Mid white box*/
 .mid    {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mid-title  {
@@ -77,9 +80,9 @@ body    {
 }
 
 .mid-images {
+    max-width: 800px;
     padding: 0px 100px;
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
