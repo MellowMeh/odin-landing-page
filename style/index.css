@@ -47,7 +47,7 @@ body    {
     justify-content: space-between;
     align-items: baseline;
     max-width: 670px;
-    min-width: 400px;
+    min-width: 430px;
     flex: 1 1 0;
 }
 
@@ -173,7 +173,7 @@ body    {
 .blue-box   {
     background: #3882f6;
     max-width: 670px;
-    min-width: 400px;
+    min-width: 430px;
     padding: 20px;
     display: flex;
     flex: 1 0 0;
