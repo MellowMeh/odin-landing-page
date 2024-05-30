@@ -81,8 +81,8 @@ body    {
 }
 
 .top-empty  {
-    min-width: none;
-    max-width: 90px;
+    min-width: 38px;
+    max-width: 140px;
     flex: 1;
 }
 
