@@ -46,3 +46,16 @@ body    {
     display: flex;
     gap: 15px;
 }
+
+.top    {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.top-left   {
+    padding: 50px 0px 50px 100px;
+}
+
+.top-right  {
+    padding: 50px 100px 50px 0px;
+}
